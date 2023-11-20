@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-poppins;
+}
+
+.input_field {
+  @apply bg-gray-100 rounded-md border outline-gray-300 py-3  px-4 w-full;
+}
+.input_field-btn {
+  @apply bg-zinc-900 hover:bg-zinc-700 transition-all text-white rounded-md py-3  px-1 w-full;
+}
+.input_field-btn2 {
+  @apply w-full py-3 rounded-lg  flex items-center gap-2 justify-center  transition
+  text-white cursor-pointer font-medium;
+}
+
+.input_field-wrapper {
+  @apply w-full  flex flex-col gap-2 items-start justify-center;
+}
+
+.flex_center-col {
+  @apply flex items-center justify-center flex-col;
+}
+.flex_center {
+  @apply flex items-center justify-center;
+}
+.flex_start-col {
+  @apply flex items-start justify-center flex-col;
+}
+
+.auth_section{
+  @apply   p-3 sm:p-6 min-h-[100vh]  
+}
+
+.auth_wrapper {
+  @apply m-auto rounded-xl grid grid-cols-1 overflow-hidden sm:grid-cols-2 md:w-[80vw] lg:w-[70vw];
+}
+
+
+ a.active{
+  @apply  bg-base-300 rounded-lg
+}
+ a.activemore{
+  @apply  bg-base-300 rounded-lg
+}
+
+.main_sidebar{
+ @apply flex-col shadow-md
+}
+
+.canvas_container{
+  @apply h-[50vh] w-[85vw] md:h-auto md:w-auto
+}
+
+.section_heading{
+  @apply text-lg mb-6 font-bold
+}
+
+.section_padding{
+
+}
